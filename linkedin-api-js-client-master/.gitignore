@@ -1,0 +1,8 @@
+.vscode
+*.tgz
+node_modules
+docs
+dist
+.DS_Store
+coverage
+.env

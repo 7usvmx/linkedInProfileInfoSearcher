@@ -1,0 +1,43 @@
+
+body {
+
+    overflow: auto !important;
+}
+
+.sideNav {
+
+    width: 270px;
+}
+
+.sideNav {
+
+    
+    visibility: visible !important;
+    top: 82px;
+    height: calc(100% - 82px);
+    background-color: #19283f;
+    color: white;
+}
+
+.dashboard .box {
+
+    background: linear-gradient(90deg, rgb(139, 194, 203) 0%, rgba(136,227,246,1) 100%); 
+    border: 2px dashed rgb(255, 255, 255);
+    height: 150px;
+    color: white
+}
+
+
+
+#backIcon {
+
+    position: fixed;
+    font-size: 100px !important;
+    bottom: 45px;
+    left: 50px;
+    z-index: 0;
+    opacity: .3;
+    
+}
+
+

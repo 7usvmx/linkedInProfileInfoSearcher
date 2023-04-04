@@ -1,0 +1,76 @@
+/* Colors */
+
+:root {
+
+  --dark: #151c2e;
+  --green: #33d1cc;
+  --section: #dadada73;
+  --success: #28a745;
+  --danger: #dc3545;
+  --info: #007bff;
+  --gray: #6c757d;
+  --brand: #fdcc04;
+
+}
+
+.white {
+
+  color: white;
+}
+.success {
+
+  background-color: var(--success);
+}
+
+.danger {
+
+  background-color: var(--danger);
+}
+
+.gray {
+
+  background-color: var(--gray);
+}
+
+/* Colors */
+
+
+/*Fonts*/
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'tirhal';
+    src: url("../fonts/TajawalBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Fonts */
+
+  /* Configrations */
+
+  button,button:focus,button:hover {
+
+    outline: none;
+    box-shadow:none !important;
+    border-radius: 0 !important;
+    color: white !important;
+  
+  }
+
+  /* Configrations */
+
+body {
+    
+    font-family: tajawal;
+    height: 550px;
+    width: 550px;
+    /* background: rgb(105,255,230);
+background: linear-gradient(90deg, rgba(105,255,230,1) 0%, rgba(83,207,255,1) 50%, rgba(82,178,227,1) 100%); */
+    
+}
